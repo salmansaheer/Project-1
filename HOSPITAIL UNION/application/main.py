@@ -1,5 +1,5 @@
-from flask import Flask,Blueprint,render_template
-from src.home.api.blueprints import home
+from flask import Flask,render_template
+from src.home.api.blueprint import home
 
 app = Flask(__name__, static_url_path="/")
 
